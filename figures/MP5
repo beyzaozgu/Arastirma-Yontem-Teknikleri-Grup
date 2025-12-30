@@ -1,0 +1,92 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{amsmath}
+\usepackage{float}
+
+\title{MP5 Proje Raporu: Bilim Tarihinde Kadınların Gecikmiş Katılımı ; Engeller Algılar ve Dönüşümler}
+
+\author{
+\IEEEauthorblockN{Beyza Özgü,Hacer Mantıcı,Helin Aydoğdu,Ayşe Betül Gümüş}
+\IEEEauthorblockA{
+Bilgisayar Programcılığı Bölümü\\
+Marmara Üniversitesi\\
+Email: ozgubeyza@gmail.com}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Bu çalışmada proje kapsamında belirlenen problem ele alınmış ve veri temelli bir analiz süreci yürütülmüştür. 
+Çalışmanın amacı, elde edilen verileri istatistiksel yöntemlerle incelemek ve farkındalık ortaya koymaktır. 
+Veriler çeşitli kaynaklardan toplanmış ve yorumlanmıştır. 
+Analiz sürecinde grafiksel gösterimler kullanılarak konu değerlendirilmiştir. 
+Elde edilen sonuçlar, söz konusu durumun bir problem teşkil ettiğini ortaya koymaktadır.
+Çalışma sonunda yapılabilecek bilinçlendirme çalışmalarına yönelik öneriler sunulmuştur.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Veri Analizi, İstatistiksel Yöntemler, Grafikler, MP5 Projesi
+\end{IEEEkeywords}
+
+\section{Problem Tanımı ve Amaç}
+Bu projede ele alınan temel problem, tarih boyunca bilim dünyasında kadınların cinsiyet rollerinden dolayı geri plana atılmasıdır. 
+Günümüzde farkındalığın hızla artması, bu konunun önemini artırmaktadır. 
+Projenin amacı, bu veriler üzerinde analiz yaparak konuya dikkat çekmek ve cinsiyetçi rollerin önünü kesmektir. 
+Ayrıca elde edilen bulguların grafiklerle desteklenmesi hedeflenmiştir.
+
+\section{Veri Toplama ve Analiz Süreci}
+Veriler, ilgili kaynaklardan toplanmış ve analiz edilerek rapora eklenmiştir.
+Analiz sürecinde temel istatistiksel yöntemler ve görselleştirme teknikleri kullanılmıştır. 
+Bu aşamada Jupyter Notebook ve TÜİK verilerinden yararlanılmıştır.
+
+\section{Elde Edilen Grafikler ve Bulgular}
+Bu bölümde analiz sonucunda elde edilen grafikler ve bulgular sunulmaktadır. 
+Grafikler, cinsiyet rollerindeki eşitsizliği daha net ortaya koymaktadır.
+
+\begin{figure}[H]
+\centering
+\includegraphics{figures/grafik1.png}
+\includegraphics[width=0.45\linewidth]{figures/grafik2.png}
+\includegraphics[width=0.45\linewidth]{figures/grafik3.png}
+\includegraphics[width=0.45\linewidth]{figures/grafik4.png}
+\includegraphics[width=0.45\linewidth]{figures/grafik5.png}
+\caption{Örnek Veri Grafiği}
+\label{fig:grafik1}
+\end{figure}
+
+Elde edilen sonuçlar, veriler arasında anlamlı ilişkiler olduğunu göstermektedir. 
+Grafiksel analizler, bu ilişkilerin yorumlanmasını kolaylaştırmıştır.
+
+\section{Sonuç ve Öneriler}
+Bu çalışmada MP5 projesi kapsamında belirlenen problem analiz edilmiştir. 
+Elde edilen sonuçlar, günümüzde hâlâ eşitsizliğin sürdürüldüğünü göstermektedir. 
+Bilim tarihinde kadınların rolüne yönelik farkındalık oluşturmak amacıyla bu alandaki örneklerin günlük hayata sistemli biçimde dâhil edilmesi önerilmektedir.
+
+\begin{thebibliography}{00}
+
+\bibitem{ref1}
+M. W. Rossiter, 
+``The Matthew Matilda Effect in Science,'' 
+\emph{Social Studies of Science}, 
+vol. 23, no. 2, pp. 325--341, 1993.
+
+\bibitem{ref2}
+V. Larivière, C. Ni, Y. Gingras, B. Cronin, and C. R. Sugimoto, 
+``Bibliometrics: Global gender disparities in science,'' 
+\emph{Nature}, 
+vol. 504, no. 7479, pp. 211--213, 2013.
+
+\bibitem{ref3}
+C. Allen and D. M. A. Mehler, 
+``Open science challenges, benefits and tips in early career and beyond,'' 
+\emph{PLoS Biology}, 
+vol. 17, no. 5, e3000246, 2019.
+
+\end{thebibliography}
+
+\end{document}
