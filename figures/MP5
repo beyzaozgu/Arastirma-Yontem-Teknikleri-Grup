@@ -51,10 +51,10 @@ Grafikler, cinsiyet rollerindeki eşitsizliği daha net ortaya koymaktadır.
 \begin{figure}[H]
 \centering
 \includegraphics{figures/grafik1.png}
-\includegraphics[width=0.45\linewidth]{figures/grafik2.png}
-\includegraphics[width=0.45\linewidth]{figures/grafik3.png}
-\includegraphics[width=0.45\linewidth]{figures/grafik4.png}
-\includegraphics[width=0.45\linewidth]{figures/grafik5.png}
+\includegraphics{figures/grafik2.png}
+\includegraphics{figures/grafik3.png}
+\includegraphics{figures/grafik4.png}
+\includegraphics{figures/grafik5.png}
 \caption{Örnek Veri Grafiği}
 \label{fig:grafik1}
 \end{figure}
